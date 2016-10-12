@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		72D1490E483681C15ECC32D6 /* Pods_Near_ME_APP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D3973CBC9692099083543D /* Pods_Near_ME_APP.framework */; };
+		DC4D0D251DADF60000D5E99A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4D0D241DADF60000D5E99A /* SystemConfiguration.framework */; };
+		DC4D0D271DADF60E00D5E99A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4D0D261DADF60E00D5E99A /* QuartzCore.framework */; };
+		DC4D0D311DADF67D00D5E99A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4D0D281DADF67D00D5E99A /* AVFoundation.framework */; };
+		DC4D0D321DADF67D00D5E99A /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4D0D291DADF67D00D5E99A /* CoreData.framework */; };
+		DC4D0D331DADF67D00D5E99A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4D0D2A1DADF67D00D5E99A /* CoreLocation.framework */; };
+		DC4D0D341DADF67D00D5E99A /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4D0D2B1DADF67D00D5E99A /* CoreText.framework */; };
+		DC4D0D351DADF67D00D5E99A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4D0D2C1DADF67D00D5E99A /* Foundation.framework */; };
+		DC4D0D361DADF67D00D5E99A /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4D0D2D1DADF67D00D5E99A /* GLKit.framework */; };
+		DC4D0D371DADF67D00D5E99A /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4D0D2E1DADF67D00D5E99A /* ImageIO.framework */; };
+		DC4D0D381DADF67D00D5E99A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4D0D2F1DADF67D00D5E99A /* OpenGLES.framework */; };
+		DC4D0D391DADF67D00D5E99A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4D0D301DADF67D00D5E99A /* UIKit.framework */; };
+		DC4D0D431DAE117D00D5E99A /* man.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4D0D421DAE117D00D5E99A /* man.png */; };
+		DC4D0D451DAE11E700D5E99A /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4D0D441DAE11E700D5E99A /* map.png */; };
+		DC4D0D471DAE188400D5E99A /* search (1).png in Resources */ = {isa = PBXBuildFile; fileRef = DC4D0D461DAE188400D5E99A /* search (1).png */; };
+		DC4D0D491DAE189F00D5E99A /* search.png in Resources */ = {isa = PBXBuildFile; fileRef = DC4D0D481DAE189F00D5E99A /* search.png */; };
+		DC4D0D4B1DAE1A6200D5E99A /* menu (6).png in Resources */ = {isa = PBXBuildFile; fileRef = DC4D0D4A1DAE1A6200D5E99A /* menu (6).png */; };
+		DC4D0D4D1DAE2F9800D5E99A /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4D0D4C1DAE2F9800D5E99A /* AFNetworking.framework */; };
+		DC4D0D4F1DAE323900D5E99A /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC4D0D4E1DAE323900D5E99A /* CFNetwork.framework */; };
+		DC4D0D521DAE3B2000D5E99A /* CoolButton.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4D0D511DAE3B2000D5E99A /* CoolButton.m */; };
 		DC9919831DAB64AC00FE92B1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9919821DAB64AC00FE92B1 /* main.m */; };
 		DC9919861DAB64AC00FE92B1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9919851DAB64AC00FE92B1 /* AppDelegate.m */; };
 		DC99198C1DAB64AC00FE92B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC99198A1DAB64AC00FE92B1 /* Main.storyboard */; };
@@ -39,9 +59,31 @@
 		DC9919D31DABACF100FE92B1 /* standing-up-man-.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9919D21DABACF100FE92B1 /* standing-up-man-.png */; };
 		DC9919D91DABB00800FE92B1 /* musica-searcher.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9919D81DABB00800FE92B1 /* musica-searcher.png */; };
 		DC9919DB1DABB28700FE92B1 /* magnifying-glass-browser.png in Resources */ = {isa = PBXBuildFile; fileRef = DC9919DA1DABB28700FE92B1 /* magnifying-glass-browser.png */; };
+		DC9919DD1DABB8A500FE92B1 /* Red_Background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC9919DC1DABB8A500FE92B1 /* Red_Background.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7ADEA5829F567AB569732DBC /* Pods-Near ME APP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Near ME APP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Near ME APP/Pods-Near ME APP.debug.xcconfig"; sourceTree = "<group>"; };
+		DC4D0D241DADF60000D5E99A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		DC4D0D261DADF60E00D5E99A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DC4D0D281DADF67D00D5E99A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DC4D0D291DADF67D00D5E99A /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		DC4D0D2A1DADF67D00D5E99A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DC4D0D2B1DADF67D00D5E99A /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		DC4D0D2C1DADF67D00D5E99A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DC4D0D2D1DADF67D00D5E99A /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		DC4D0D2E1DADF67D00D5E99A /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		DC4D0D2F1DADF67D00D5E99A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		DC4D0D301DADF67D00D5E99A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DC4D0D421DAE117D00D5E99A /* man.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = man.png; sourceTree = "<group>"; };
+		DC4D0D441DAE11E700D5E99A /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		DC4D0D461DAE188400D5E99A /* search (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search (1).png"; sourceTree = "<group>"; };
+		DC4D0D481DAE189F00D5E99A /* search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = search.png; sourceTree = "<group>"; };
+		DC4D0D4A1DAE1A6200D5E99A /* menu (6).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu (6).png"; sourceTree = "<group>"; };
+		DC4D0D4C1DAE2F9800D5E99A /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
+		DC4D0D4E1DAE323900D5E99A /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		DC4D0D501DAE3B2000D5E99A /* CoolButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoolButton.h; sourceTree = "<group>"; };
+		DC4D0D511DAE3B2000D5E99A /* CoolButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoolButton.m; sourceTree = "<group>"; };
 		DC99197E1DAB64AB00FE92B1 /* Near ME APP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Near ME APP.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC9919821DAB64AC00FE92B1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DC9919841DAB64AC00FE92B1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -84,6 +126,9 @@
 		DC9919D21DABACF100FE92B1 /* standing-up-man-.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "standing-up-man-.png"; sourceTree = "<group>"; };
 		DC9919D81DABB00800FE92B1 /* musica-searcher.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "musica-searcher.png"; sourceTree = "<group>"; };
 		DC9919DA1DABB28700FE92B1 /* magnifying-glass-browser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "magnifying-glass-browser.png"; sourceTree = "<group>"; };
+		DC9919DC1DABB8A500FE92B1 /* Red_Background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Red_Background.jpg; sourceTree = "<group>"; };
+		E3D3973CBC9692099083543D /* Pods_Near_ME_APP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Near_ME_APP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1AC3B6F910D002122033DD5 /* Pods-Near ME APP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Near ME APP.release.xcconfig"; path = "Pods/Target Support Files/Pods-Near ME APP/Pods-Near ME APP.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,19 +136,74 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC4D0D4F1DAE323900D5E99A /* CFNetwork.framework in Frameworks */,
+				DC4D0D4D1DAE2F9800D5E99A /* AFNetworking.framework in Frameworks */,
+				DC4D0D311DADF67D00D5E99A /* AVFoundation.framework in Frameworks */,
+				DC4D0D321DADF67D00D5E99A /* CoreData.framework in Frameworks */,
+				DC4D0D331DADF67D00D5E99A /* CoreLocation.framework in Frameworks */,
+				DC4D0D341DADF67D00D5E99A /* CoreText.framework in Frameworks */,
+				DC4D0D351DADF67D00D5E99A /* Foundation.framework in Frameworks */,
+				DC4D0D361DADF67D00D5E99A /* GLKit.framework in Frameworks */,
+				DC4D0D371DADF67D00D5E99A /* ImageIO.framework in Frameworks */,
+				DC4D0D381DADF67D00D5E99A /* OpenGLES.framework in Frameworks */,
+				DC4D0D391DADF67D00D5E99A /* UIKit.framework in Frameworks */,
+				DC4D0D271DADF60E00D5E99A /* QuartzCore.framework in Frameworks */,
+				DC4D0D251DADF60000D5E99A /* SystemConfiguration.framework in Frameworks */,
 				DC9919C51DAB99C500FE92B1 /* MapKit.framework in Frameworks */,
+				72D1490E483681C15ECC32D6 /* Pods_Near_ME_APP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D980EB45CFAEE3A92F7067E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7ADEA5829F567AB569732DBC /* Pods-Near ME APP.debug.xcconfig */,
+				F1AC3B6F910D002122033DD5 /* Pods-Near ME APP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8D5F7A16A293C85255CCC3C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC4D0D4E1DAE323900D5E99A /* CFNetwork.framework */,
+				DC4D0D4C1DAE2F9800D5E99A /* AFNetworking.framework */,
+				DC4D0D281DADF67D00D5E99A /* AVFoundation.framework */,
+				DC4D0D291DADF67D00D5E99A /* CoreData.framework */,
+				DC4D0D2A1DADF67D00D5E99A /* CoreLocation.framework */,
+				DC4D0D2B1DADF67D00D5E99A /* CoreText.framework */,
+				DC4D0D2C1DADF67D00D5E99A /* Foundation.framework */,
+				DC4D0D2D1DADF67D00D5E99A /* GLKit.framework */,
+				DC4D0D2E1DADF67D00D5E99A /* ImageIO.framework */,
+				DC4D0D2F1DADF67D00D5E99A /* OpenGLES.framework */,
+				DC4D0D301DADF67D00D5E99A /* UIKit.framework */,
+				DC4D0D261DADF60E00D5E99A /* QuartzCore.framework */,
+				DC4D0D241DADF60000D5E99A /* SystemConfiguration.framework */,
+				E3D3973CBC9692099083543D /* Pods_Near_ME_APP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC4D0D1F1DADEFCE00D5E99A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DC4D0D501DAE3B2000D5E99A /* CoolButton.h */,
+				DC4D0D511DAE3B2000D5E99A /* CoolButton.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		DC9919751DAB64AB00FE92B1 = {
 			isa = PBXGroup;
 			children = (
 				DC9919C41DAB99C500FE92B1 /* MapKit.framework */,
 				DC9919801DAB64AC00FE92B1 /* Near ME APP */,
 				DC99197F1DAB64AB00FE92B1 /* Products */,
+				4D980EB45CFAEE3A92F7067E /* Pods */,
+				8D5F7A16A293C85255CCC3C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +218,7 @@
 		DC9919801DAB64AC00FE92B1 /* Near ME APP */ = {
 			isa = PBXGroup;
 			children = (
+				DC4D0D1F1DADEFCE00D5E99A /* Model */,
 				DC9919D71DABAFBE00FE92B1 /* Story Board */,
 				DC9919D61DABAFA800FE92B1 /* images */,
 				DC9919D51DABAF8800FE92B1 /* ViewController */,
@@ -149,12 +250,12 @@
 		DC9919D51DABAF8800FE92B1 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DC99199F1DAB664500FE92B1 /* ListTableViewCell.h */,
+				DC9919A01DAB664500FE92B1 /* ListTableViewCell.m */,
 				DC9919C11DAB999A00FE92B1 /* HomeViewController.h */,
 				DC9919C21DAB999A00FE92B1 /* HomeViewController.m */,
 				DC9919BE1DAB995900FE92B1 /* CategoaryTableViewController.h */,
 				DC9919BF1DAB995900FE92B1 /* CategoaryTableViewController.m */,
-				DC99199F1DAB664500FE92B1 /* ListTableViewCell.h */,
-				DC9919A01DAB664500FE92B1 /* ListTableViewCell.m */,
 				DC9919981DAB654000FE92B1 /* ListTableViewController.h */,
 				DC9919991DAB654000FE92B1 /* ListTableViewController.m */,
 				DC9919AA1DAB76DE00FE92B1 /* DetailsViewController.h */,
@@ -170,9 +271,11 @@
 		DC9919D61DABAFA800FE92B1 /* images */ = {
 			isa = PBXGroup;
 			children = (
+				DC4D0D461DAE188400D5E99A /* search (1).png */,
 				DC9919DA1DABB28700FE92B1 /* magnifying-glass-browser.png */,
 				DC9919D81DABB00800FE92B1 /* musica-searcher.png */,
 				DC9919A41DAB72B300FE92B1 /* phone-handset.png */,
+				DC4D0D481DAE189F00D5E99A /* search.png */,
 				DC9919C61DAB9A5800FE92B1 /* menu (5).png */,
 				DC9919B31DAB799C00FE92B1 /* shopping-cart.png */,
 				DC9919D21DABACF100FE92B1 /* standing-up-man-.png */,
@@ -186,8 +289,12 @@
 				DC9919CA1DAB9B4700FE92B1 /* placeholder.png */,
 				DC9919CC1DABA52700FE92B1 /* like.png */,
 				DC99199B1DAB65A700FE92B1 /* mcirwyeeabcsi.jpg */,
+				DC4D0D421DAE117D00D5E99A /* man.png */,
+				DC4D0D4A1DAE1A6200D5E99A /* menu (6).png */,
 				DC9919B91DAB7B0F00FE92B1 /* next (1).png */,
+				DC9919DC1DABB8A500FE92B1 /* Red_Background.jpg */,
 				DC99199D1DAB65AE00FE92B1 /* download (1).jpeg */,
+				DC4D0D441DAE11E700D5E99A /* map.png */,
 				DC9919A21DAB6D0E00FE92B1 /* images.jpeg */,
 			);
 			name = images;
@@ -209,9 +316,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DC9919951DAB64AC00FE92B1 /* Build configuration list for PBXNativeTarget "Near ME APP" */;
 			buildPhases = (
+				B8B28B3189B66AADC28C5564 /* [CP] Check Pods Manifest.lock */,
 				DC99197A1DAB64AB00FE92B1 /* Sources */,
 				DC99197B1DAB64AB00FE92B1 /* Frameworks */,
 				DC99197C1DAB64AB00FE92B1 /* Resources */,
+				AD85430019BE821B458A913B /* [CP] Embed Pods Frameworks */,
+				B7F3FD4EE36E0713ED0B7C6E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,18 +370,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC9919D91DABB00800FE92B1 /* musica-searcher.png in Resources */,
+				DC4D0D491DAE189F00D5E99A /* search.png in Resources */,
 				DC9919C71DAB9A5800FE92B1 /* menu (5).png in Resources */,
 				DC9919DB1DABB28700FE92B1 /* magnifying-glass-browser.png in Resources */,
 				DC99199E1DAB65AE00FE92B1 /* download (1).jpeg in Resources */,
 				DC9919A91DAB72B300FE92B1 /* shopping-bag.png in Resources */,
 				DC9919A81DAB72B300FE92B1 /* map-of-roads.png in Resources */,
 				DC9919911DAB64AC00FE92B1 /* LaunchScreen.storyboard in Resources */,
+				DC4D0D431DAE117D00D5E99A /* man.png in Resources */,
 				DC9919CB1DAB9B4700FE92B1 /* placeholder.png in Resources */,
 				DC9919A71DAB72B300FE92B1 /* phone-handset.png in Resources */,
 				DC9919D31DABACF100FE92B1 /* standing-up-man-.png in Resources */,
 				DC9919CD1DABA52700FE92B1 /* like.png in Resources */,
 				DC99198E1DAB64AC00FE92B1 /* Assets.xcassets in Resources */,
+				DC4D0D471DAE188400D5E99A /* search (1).png in Resources */,
+				DC4D0D4B1DAE1A6200D5E99A /* menu (6).png in Resources */,
 				DC99198C1DAB64AC00FE92B1 /* Main.storyboard in Resources */,
+				DC9919DD1DABB8A500FE92B1 /* Red_Background.jpg in Resources */,
+				DC4D0D451DAE11E700D5E99A /* map.png in Resources */,
 				DC9919BA1DAB7B0F00FE92B1 /* next (1).png in Resources */,
 				DC99199C1DAB65A700FE92B1 /* mcirwyeeabcsi.jpg in Resources */,
 				DC9919A31DAB6D0F00FE92B1 /* images.jpeg in Resources */,
@@ -286,11 +402,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		AD85430019BE821B458A913B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Near ME APP/Pods-Near ME APP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7F3FD4EE36E0713ED0B7C6E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Near ME APP/Pods-Near ME APP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8B28B3189B66AADC28C5564 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DC99197A1DAB64AB00FE92B1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC4D0D521DAE3B2000D5E99A /* CoolButton.m in Sources */,
 				DC9919B21DAB770700FE92B1 /* ContactViewController.m in Sources */,
 				DC9919861DAB64AC00FE92B1 /* AppDelegate.m in Sources */,
 				DC9919AC1DAB76DE00FE92B1 /* DetailsViewController.m in Sources */,
@@ -365,6 +530,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -402,6 +568,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "-ObjC";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -409,8 +576,13 @@
 		};
 		DC9919961DAB64AC00FE92B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ADEA5829F567AB569732DBC /* Pods-Near ME APP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+				);
 				INFOPLIST_FILE = "Near ME APP/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BLE--TestApp.Near-ME-APP";
@@ -420,8 +592,13 @@
 		};
 		DC9919971DAB64AC00FE92B1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1AC3B6F910D002122033DD5 /* Pods-Near ME APP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/AFNetworking",
+				);
 				INFOPLIST_FILE = "Near ME APP/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "BLE--TestApp.Near-ME-APP";
@@ -448,6 +625,7 @@
 				DC9919971DAB64AC00FE92B1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

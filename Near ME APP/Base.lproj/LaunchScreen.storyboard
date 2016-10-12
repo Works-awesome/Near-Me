@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -14,14 +15,37 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="9l4-Yv-TxJ">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="OZone" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9s3-hT-tGs">
+                                <rect key="frame" x="54" y="192" width="212" height="56"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Bold" family="Chalkboard SE" pointSize="36"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="9s3-hT-tGs" secondAttribute="bottom" constant="320" id="0a0-fN-t6T"/>
+                            <constraint firstItem="9s3-hT-tGs" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="34" id="RMn-gd-PLM"/>
+                            <constraint firstItem="9l4-Yv-TxJ" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="RdK-v3-Llp"/>
+                            <constraint firstAttribute="trailing" secondItem="9l4-Yv-TxJ" secondAttribute="trailing" id="Wcg-z0-lhO"/>
+                            <constraint firstItem="9l4-Yv-TxJ" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="X8y-uj-pYW"/>
+                            <constraint firstItem="9s3-hT-tGs" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="172" id="eqQ-5c-w1r"/>
+                            <constraint firstItem="9l4-Yv-TxJ" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="kTh-gi-DJx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="9s3-hT-tGs" secondAttribute="trailing" constant="34" id="vcv-eu-DRD"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="410" y="335"/>
         </scene>
     </scenes>
 </document>

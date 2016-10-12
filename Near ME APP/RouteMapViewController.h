@@ -7,7 +7,22 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GoogleMaps/GoogleMaps.h>
+@import AFNetworking;
 
-@interface RouteMapViewController : UIViewController
+@interface RouteMapViewController : UIViewController <GMSMapViewDelegate>
+{
+   
+   
+
+        NSMutableArray *_coordinates;
+        __weak GMSMapView *_mapView;
+      
+        GMSPolyline *_polyline;
+        GMSMarker *_markerStart;
+        GMSMarker *_markerFinish;
+    }
+
+@property (weak, nonatomic) IBOutlet GMSMapView *mapview;
 
 @end

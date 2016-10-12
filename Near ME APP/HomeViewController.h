@@ -9,8 +9,12 @@
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
 #import <CoreLocation/CoreLocation.h>
-@interface HomeViewController : UIViewController<CLLocationManagerDelegate,UISearchBarDelegate,UITableViewDelegate,UITableViewDataSource>
-@property (weak, nonatomic) IBOutlet MKMapView *mapview;
+#import <GoogleMaps/GoogleMaps.h>
+@interface HomeViewController : UIViewController<CLLocationManagerDelegate,UISearchBarDelegate,GMSMapViewDelegate>
+@property (weak, nonatomic) IBOutlet GMSMapView *mapview;
+
+
+
 @property (weak, nonatomic) IBOutlet UITableView *tablview;
 @property (weak, nonatomic) IBOutlet UISearchBar *searchbar;
 @property(nonatomic, retain) CLLocationManager *locationManager;

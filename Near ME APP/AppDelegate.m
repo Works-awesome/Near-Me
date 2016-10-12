@@ -18,6 +18,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     [self.window setTintColor:[UIColor redColor]];
+    [GMSServices provideAPIKey:@"AIzaSyALCZxEVsNuDmcssct_JDaNWvio3cFc2Vs"];
+    [GMSPlacesClient provideAPIKey:@"AIzaSyCsl77845mzhuGVyNjtrxm1po0vANzikBg"];
     return YES;
 }
 
