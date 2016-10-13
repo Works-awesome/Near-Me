@@ -47,8 +47,6 @@ NSArray *tabledata;
     // Dispose of any resources that can be recreated.
 }
 
-
-
 // Add a UIButton in Interface Builder, and connect the action to this function.
 - (IBAction)getCurrentPlace:(UIButton *)sender {
     [_placesClient currentPlaceWithCallback:^(GMSPlaceLikelihoodList *placeLikelihoodList, NSError *error){
@@ -86,9 +84,6 @@ NSArray *tabledata;
    
 
 }
-
-
-
 - (void)locationManager:(CLLocationManager *)manager didUpdateToLocation:(CLLocation *)newLocation fromLocation:(CLLocation *)oldLocation
 {
     
@@ -121,8 +116,6 @@ didTapPOIWithPlaceID:(NSString *)placeID
     acController.delegate = self;
     [self presentViewController:acController animated:YES completion:nil];
 }
-
-
 // Handle the user's selection.
 - (void)viewController:(GMSAutocompleteViewController *)viewController
 didAutocompleteWithPlace:(GMSPlace *)place {
@@ -145,24 +138,20 @@ didAutocompleteWithPlace:(GMSPlace *)place {
     self.mapview.settings.myLocationButton = YES;
     self.mapview.myLocationEnabled = YES;
 }
-
 - (void)viewController:(GMSAutocompleteViewController *)viewController
 didFailAutocompleteWithError:(NSError *)error {
     [self dismissViewControllerAnimated:YES completion:nil];
     // TODO: handle the error.
     NSLog(@"Error: %@", [error description]);
 }
-
 // User canceled the operation.
 - (void)wasCancelled:(GMSAutocompleteViewController *)viewController {
     [self dismissViewControllerAnimated:YES completion:nil];
 }
-
 // Turn the network activity indicator on and off again.
 - (void)didRequestAutocompletePredictions:(GMSAutocompleteViewController *)viewController {
     [UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
 }
-
 - (void)didUpdateAutocompletePredictions:(GMSAutocompleteViewController *)viewController {
     [UIApplication sharedApplication].networkActivityIndicatorVisible = NO;
 }
